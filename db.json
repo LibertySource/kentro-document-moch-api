@@ -4,6 +4,7 @@
       "id": 1,
       "test":{
         "title": "STAAR Reading Language Arts New Item Type Samples",
+        "welcome": "Welcome [USER_NAME]",
         "summary": "<p>There is 1 section.</p><p>There are 19 questions in section 1.</p>",
         "parts":[
             {
@@ -14,12 +15,13 @@
                     "sections":null,
                     "title": "Samples",
                     "questionCount": 1,
+                    "notAnswerdCounter": 1,
+                    "bookmarkCount": 0,
                     "items":[
                         {
-                          "type": "start",
+                          "type": "info",
                           "reviewText": "Introduction",
                           "bookmarked": false,
-                          "passageId": null,
                           "header": "Not displayed in TestNav",
                           "body": "<img src=\"https://tx.pearsontestcontent.com/txqc/55a8d18fc2e0be2e30e648e2fdf26398ee07e357/3261/5/171257/5/staar-logo.png\" alt=\" \" width=\"400\" height=\"250\"/>",
                           "footer": "Copyright © 2020, Texas Education Agency. All rights reserved. Reproduction of all or portions of this work is prohibited without express written permission from the Texas Education Agency."
@@ -57,10 +59,8 @@
                           ]
                         },
                         {
-                          "type":"multiple"
-                        },
-                        {
-                          "type":"multiple"
+                          "type": "summary",
+                          "reviewText": "End of Section"
                         }
                     ],
                     "passages": [
