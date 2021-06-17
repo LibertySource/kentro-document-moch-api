@@ -24,50 +24,94 @@
                           "bookmarked": false,
                           "header": "",
                           "body": "<img src=\"https://tx.pearsontestcontent.com/txqc/55a8d18fc2e0be2e30e648e2fdf26398ee07e357/3261/5/171257/5/staar-logo.png\" alt=\" \" width=\"400\" height=\"250\"/>",
-                          "footer": "Copyright © 2020, Texas Education Agency. All rights reserved. Reproduction of all or portions of this work is prohibited without express written permission from the Texas Education Agency."
+                          "copyright": "Copyright © 2020, Texas Education Agency. All rights reserved. Reproduction of all or portions of this work is prohibited without express written permission from the Texas Education Agency.",
+                          "footer": ""
                         },
                         {
-                          "type":"notImplemented",
+                          "type":"shortConstructedResponse",
+                          "implemented": false,
                           "questionNumber": 1,
-                          "reviewText": "Question 1"
+                          "reviewText": "Question 1",
+                          "bookmarked": false,
+                          "passageId": ["12344"],
+                          "html": "Read the question carefully.."
                         },
                         {
                           "type":"multipleSelect",
                           "questionNumber": 2,
                           "reviewText": "Question 2",
                           "bookmarked": false,
-                          "passageId": "12345",
+                          "passageId": ["12345"],
                           "html": "<p>What conclusion can the reader make about the bee based on the bee's conversation with the caterpillar in paragraphs 4-7? Select two correct answers.</p>",
                           "minSelected": 2,
                           "maxSelected": 2,
                           "options": [
                             {
                               "selected": false,
-                              "html": "<p>A. The bee wonders how long the caterpillar will work.</p>"
+                              "prefix": "A",
+                              "html": "<p>The bee wonders how long the caterpillar will work.</p>"
                             },
                             {
                               "selected": false,
-                              "html": "<p>B. The bee enjoys making fun of the cateripllar.</p>"
+                              "prefix": "B",
+                              "html": "<p>The bee enjoys making fun of the cateripllar.</p>"
                             },
                             {
                               "selected": false,
-                              "html": "<p>C. The bee has never seen a caterpillar make a cocoon.</p>"
+                              "prefix": "C",
+                              "html": "<p>The bee has never seen a caterpillar make a cocoon.</p>"
                             },
                             {
                               "selected": false,
-                              "html": "<p>D. The bee is upset that the caterpillar will not listen to his suggestion.</p>"
+                              "prefix": "D",
+                              "html": "<p>The bee is upset that the caterpillar will not listen to his suggestion.</p>"
                             },
                             {
                               "selected": false,
-                              "html": "<p>E. The bee wants to keep the caterpillar from harm.</p>"
+                              "prefix": "E",
+                              "html": "<p>The bee wants to keep the caterpillar from harm.</p>"
                             }
                           ]
                         },
                         {
-                          "type":"notImplemented",
+                          "type":"multiPart",
+                          "implemented": false,
                           "questionNumber": 3,
-                          "reviewText": "Question 3"
-                        },
+                          "reviewText": "Question 3",
+                          "bookmarked": false,
+                          "passageId": ["12344"],
+                          "html": "This question has two parts...",
+                          "partA": {
+                              "type":"singleSelect",
+                              "questionNumber": 5,
+                              "reviewText": "Question 5",
+                              "bookmarked": false,
+                              "passageId": "1245",
+                              "html": "<p>In paragraph 14, what is the most....</p>",
+                              "options": [
+                                {
+                                  "selected": false,
+                                  "prefix": "A",
+                                  "html": "<p>To show that the caterpillar has experienced a change</p>"
+                                },
+                                {
+                                  "selected": false,
+                                  "prefix": "B",
+                                  "html": "<p>To explain why the caterpillar feels weak</p>"
+                                },
+                                {
+                                  "selected": false,
+                                  "prefix": "C",
+                                  "html": "<p>To indicate that the caterpillar has made a safe house</p>"
+                                },
+                                {
+                                  "selected": false,
+                                  "prefix": "D",
+                                  "html": "<p>To illustrate why the caterpillar wants to fly</p>"
+                                }
+                              ]
+                            }
+                          },
                         {
                           "type":"notImplemented",
                           "questionNumber": 4,
@@ -83,19 +127,23 @@
                           "options": [
                             {
                               "selected": false,
-                              "html": "<p>A. To show that the caterpillar has experienced a change</p>"
+                              "prefix": "A",
+                              "html": "<p>To show that the caterpillar has experienced a change</p>"
                             },
                             {
                               "selected": false,
-                              "html": "<p>B. To explain why the caterpillar needs to rest</p>"
+                              "prefix": "B",
+                              "html": "<p>To explain why the caterpillar needs to rest</p>"
                             },
                             {
                               "selected": false,
-                              "html": "<p>C. To indicate that the caterpillar has made a safe house</p>"
+                              "prefix": "C",
+                              "html": "<p>To indicate that the caterpillar has made a safe house</p>"
                             },
                             {
                               "selected": false,
-                              "html": "<p>D. To illustrate why the caterpillar wants to fly</p>"
+                              "prefix": "D",
+                              "html": "<p>To illustrate why the caterpillar wants to fly</p>"
                             }
                           ]
                         },
@@ -129,19 +177,23 @@
                           "options": [
                             {
                               "selected": false,
-                              "html": "<p>A. know the thoughts of each character</p>"
+                              "prefix": "A",
+                              "html": "<p>know the thoughts of each character</p>"
                             },
                             {
                               "selected": false,
-                              "html": "<p>B. learn more about the main character</p>"
+                              "prefix": "B",
+                              "html": "<p>learn more about the main character</p>"
                             },
                             {
                               "selected": false,
-                              "html": "<p>C. feel connected to the story</p>"
+                              "prefix": "C",
+                              "html": "<p>feel connected to the story</p>"
                             },
                             {
                               "selected": false,
-                              "html": "<p>D. realize the lesson of the story</p>"
+                              "prefix": "D",
+                              "html": "<p>realize the lesson of the story</p>"
                             }
                           ]
                         },
@@ -172,23 +224,28 @@
                           "options": [
                             {
                               "selected": false,
-                              "html": "<p>A. You leave behind your chrysalis husk (line 13)</p>"
+                              "prefix": "A",
+                              "html": "<p>You leave behind your chrysalis husk (line 13)</p>"
                             },
                             {
                               "selected": false,
-                              "html": "<p>B. I know just where you will go, (line 16)</p>"
+                              "prefix": "B",
+                              "html": "<p>I know just where you will go, (line 16)</p>"
                             },
                             {
                               "selected": false,
-                              "html": "<p>C. You will soon rob this land of your grace (line 21)</p>"
+                              "prefix": "C",
+                              "html": "<p>You will soon rob this land of your grace (line 21)</p>"
                             },
                             {
                               "selected": false,
-                              "html": "<p>D. And leave it dull as pale elephant skin (line 22)</p>"
+                              "prefix": "D",
+                              "html": "<p>And leave it dull as pale elephant skin (line 22)</p>"
                             },
                             {
                               "selected": false,
-                              "html": "<p>E. While you dance in warm sun rays (line 24)</p>"
+                              "prefix": "E",
+                              "html": "<p>While you dance in warm sun rays (line 24)</p>"
                             }
                           ]
                         },
@@ -204,23 +261,28 @@
                           "options": [
                             {
                               "selected": false,
-                              "html": "<p>A. Animal migration can be inconvenient for people in the surrounding area.</p>"
+                              "prefix": "A",
+                              "html": "<p>Animal migration can be inconvenient for people in the surrounding area.</p>"
                             },
                             {
                               "selected": false,
-                              "html": "<p>B. Animals have natural instincts that help them during migration.</p>"
+                              "prefix": "B",
+                              "html": "<p>Animals have natural instincts that help them during migration.</p>"
                             },
                             {
                               "selected": false,
-                              "html": "<p>C. People are often sad when an animal species leaves the area during migration.</p>"
+                              "prefix": "C",
+                              "html": "<p>People are often sad when an animal species leaves the area during migration.</p>"
                             },
                             {
                               "selected": false,
-                              "html": "<p>D. Animals often encounter great danger during migration.</p>"
+                              "prefix": "D",
+                              "html": "<p>Animals often encounter great danger during migration.</p>"
                             },
                             {
                               "selected": false,
-                              "html": "<p>E. People can be strongly affected by animal migration.</p>"
+                              "prefix": "E",
+                              "html": "<p>People can be strongly affected by animal migration.</p>"
                             }
                           ]
                         },
@@ -236,23 +298,28 @@
                           "options": [
                             {
                               "selected": false,
-                              "html": "<p>A. To support the description of the geographical relationship between the White Nile and the Blue Nile</p>"
+                              "prefix": "A",
+                              "html": "<p>To support the description of the geographical relationship between the White Nile and the Blue Nile</p>"
                             },
                             {
                               "selected": false,
-                              "html": "<p>B. To suggest why the expedition required inflatable rafts and a two-person kayak</p>"
+                              "prefix": "B",
+                              "html": "<p>To suggest why the expedition required inflatable rafts and a two-person kayak</p>"
                             },
                             {
                               "selected": false,
-                              "html": "<p>C. To emphasize the role of the river and its tributaries in the region</p>"
+                              "prefix": "C",
+                              "html": "<p>To emphasize the role of the river and its tributaries in the region</p>"
                             },
                             {
                               "selected": false,
-                              "html": "<p>D. To highlight the diverse landscapes along the route of the river to the Mediterranean Sea</p>"
+                              "prefix": "D",
+                              "html": "<p>To highlight the diverse landscapes along the route of the river to the Mediterranean Sea</p>"
                             },
                             {
                               "selected": false,
-                              "html": "<p>E. To reavel the specific ways in which the river is used as a natural resource</p>"
+                              "prefix": "E",
+                              "html": "<p>To reavel the specific ways in which the river is used as a natural resource</p>"
                             }
                           ]
                         },
@@ -279,18 +346,22 @@
                     "passages": [
                       {
                         "id": "12345",
+                        "tab": "Tab Name",
                         "html": "<p>Read the selection and choose the best answr to each question</p>"
                       },
                       {
                         "id": "12346",
+                        "tab": "",
                         "html": "<p>Monarch Magic</p>"
                       },
                       {
                         "id": "12347",
+                        "tab": "",
                         "html": "<p>Read the next two selections. Then choose the best answer to each question.</p>"
                       },
                       {
                         "id": "12348",
+                        "tab": "",
                         "html": "<p>Read the selection and choose the best answer to each question.</p>"
                       }
                     ]
