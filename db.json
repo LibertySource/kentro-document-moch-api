@@ -14,49 +14,262 @@
                   {
                     "sections":null,
                     "title": "Samples",
-                    "questionCount": 1,
-                    "notAnswerdCounter": 1,
+                    "questionCount": 19,
+                    "notAnswerdCounter": 19,
                     "bookmarkCount": 0,
                     "items":[
                         {
                           "type": "info",
                           "reviewText": "Introduction",
                           "bookmarked": false,
-                          "header": "Not displayed in TestNav",
+                          "header": "",
                           "body": "<img src=\"https://tx.pearsontestcontent.com/txqc/55a8d18fc2e0be2e30e648e2fdf26398ee07e357/3261/5/171257/5/staar-logo.png\" alt=\" \" width=\"400\" height=\"250\"/>",
                           "footer": "Copyright © 2020, Texas Education Agency. All rights reserved. Reproduction of all or portions of this work is prohibited without express written permission from the Texas Education Agency."
                         },
                         {
-                          "type":"multipleSelect",
+                          "type":"notImplemented",
                           "questionNumber": 1,
-                          "reviewText": "Question 1",
+                          "reviewText": "Question 1"
+                        },
+                        {
+                          "type":"multipleSelect",
+                          "questionNumber": 2,
+                          "reviewText": "Question 2",
                           "bookmarked": false,
-                          "passageId": "1245",
-                          "html": "What conclusion can the reader make about the bee based on the bee's conversation with the caterpillar in paragraphs 4-7? Select two correct answers.",
+                          "passageId": "12345",
+                          "html": "<p>What conclusion can the reader make about the bee based on the bee's conversation with the caterpillar in paragraphs 4-7? Select two correct answers.</p>",
                           "minSelected": 2,
                           "maxSelected": 2,
                           "options": [
                             {
                               "selected": false,
-                              "html": "A. The bee wonders how long the caterpillar will work."
+                              "html": "<p>A. The bee wonders how long the caterpillar will work.</p>"
                             },
                             {
                               "selected": false,
-                              "html": "B. The bee enjoys making fun of the cateripllar."
+                              "html": "<p>B. The bee enjoys making fun of the cateripllar.</p>"
                             },
                             {
                               "selected": false,
-                              "html": "C. The bee has never seen a caterpillar make a cocoon."
+                              "html": "<p>C. The bee has never seen a caterpillar make a cocoon.</p>"
                             },
                             {
                               "selected": false,
-                              "html": "D. The bee is upset that the caterpillar will not listen to his suggestion."
+                              "html": "<p>D. The bee is upset that the caterpillar will not listen to his suggestion.</p>"
                             },
                             {
                               "selected": false,
-                              "html": "E. The bee wants to keep the caterpillar from harm."
+                              "html": "<p>E. The bee wants to keep the caterpillar from harm.</p>"
                             }
                           ]
+                        },
+                        {
+                          "type":"notImplemented",
+                          "questionNumber": 3,
+                          "reviewText": "Question 3"
+                        },
+                        {
+                          "type":"notImplemented",
+                          "questionNumber": 4,
+                          "reviewText": "Question 4"
+                        },
+                        {
+                          "type":"singleSelect",
+                          "questionNumber": 5,
+                          "reviewText": "Question 5",
+                          "bookmarked": false,
+                          "passageId": "1245",
+                          "html": "<p>Read paragraph 14.</p><p>What is the most likely reason the author includes the caterpillar talking to itself?",
+                          "options": [
+                            {
+                              "selected": false,
+                              "html": "<p>A. To show that the caterpillar has experienced a change</p>"
+                            },
+                            {
+                              "selected": false,
+                              "html": "<p>B. To explain why the caterpillar needs to rest</p>"
+                            },
+                            {
+                              "selected": false,
+                              "html": "<p>C. To indicate that the caterpillar has made a safe house</p>"
+                            },
+                            {
+                              "selected": false,
+                              "html": "<p>D. To illustrate why the caterpillar wants to fly</p>"
+                            }
+                          ]
+                        },
+                        {
+                          "type":"notImplemented",
+                          "questionNumber": 6,
+                          "reviewText": "Question 6"
+                        },
+                        {
+                          "type":"notImplemented",
+                          "questionNumber": 7,
+                          "reviewText": "Question 7"
+                        },
+                        {
+                          "type":"notImplemented",
+                          "questionNumber": 8,
+                          "reviewText": "Question 8"
+                        },
+                        {
+                          "type":"notImplemented",
+                          "questionNumber": 9,
+                          "reviewText": "Question 9"
+                        },
+                        {
+                          "type":"singleSelect",
+                          "questionNumber": 10,
+                          "reviewText": "Question 10",
+                          "bookmarked": false,
+                          "passageId": "12345",
+                          "html": "<p>The author's use of third-person point of view helps the reader --</p>",
+                          "options": [
+                            {
+                              "selected": false,
+                              "html": "<p>A. know the thoughts of each character</p>"
+                            },
+                            {
+                              "selected": false,
+                              "html": "<p>B. learn more about the main character</p>"
+                            },
+                            {
+                              "selected": false,
+                              "html": "<p>C. feel connected to the story</p>"
+                            },
+                            {
+                              "selected": false,
+                              "html": "<p>D. realize the lesson of the story</p>"
+                            }
+                          ]
+                        },
+                        {
+                          "type":"notImplemented",
+                          "questionNumber": 11,
+                          "reviewText": "Question 11"
+                        },
+                        {
+                          "type":"notImplemented",
+                          "questionNumber": 12,
+                          "reviewText": "Question 12"
+                        },
+                        {
+                          "type":"notImplemented",
+                          "questionNumber": 13,
+                          "reviewText": "Question 13"
+                        },
+                        {
+                          "type":"multipleSelect",
+                          "questionNumber": 14,
+                          "reviewText": "Question 14",
+                          "bookmarked": false,
+                          "passageId": "12346",
+                          "html": "<p>What conclusion can the reader make about the bee based on the bee's conversation with the caterpillar in paragraphs 4-7? Select two correct answers.</p>",
+                          "minSelected": 2,
+                          "maxSelected": 2,
+                          "options": [
+                            {
+                              "selected": false,
+                              "html": "<p>A. You leave behind your chrysalis husk (line 13)</p>"
+                            },
+                            {
+                              "selected": false,
+                              "html": "<p>B. I know just where you will go, (line 16)</p>"
+                            },
+                            {
+                              "selected": false,
+                              "html": "<p>C. You will soon rob this land of your grace (line 21)</p>"
+                            },
+                            {
+                              "selected": false,
+                              "html": "<p>D. And leave it dull as pale elephant skin (line 22)</p>"
+                            },
+                            {
+                              "selected": false,
+                              "html": "<p>E. While you dance in warm sun rays (line 24)</p>"
+                            }
+                          ]
+                        },
+                        {
+                          "type":"multipleSelect",
+                          "questionNumber": 15,
+                          "reviewText": "Question 15",
+                          "bookmarked": false,
+                          "passageId": "12347",
+                          "html": "<p>Which of the following ideas are conveyed <strong>BOTH</strong> \"Red Crab Invasion\" and \"Monarch Magic\"? Selet two correct answers.</p>",
+                          "minSelected": 2,
+                          "maxSelected": 2,
+                          "options": [
+                            {
+                              "selected": false,
+                              "html": "<p>A. Animal migration can be inconvenient for people in the surrounding area.</p>"
+                            },
+                            {
+                              "selected": false,
+                              "html": "<p>B. Animals have natural instincts that help them during migration.</p>"
+                            },
+                            {
+                              "selected": false,
+                              "html": "<p>C. People are often sad when an animal species leaves the area during migration.</p>"
+                            },
+                            {
+                              "selected": false,
+                              "html": "<p>D. Animals often encounter great danger during migration.</p>"
+                            },
+                            {
+                              "selected": false,
+                              "html": "<p>E. People can be strongly affected by animal migration.</p>"
+                            }
+                          ]
+                        },
+                        {
+                          "type":"multipleSelect",
+                          "questionNumber": 16,
+                          "reviewText": "Question 16",
+                          "bookmarked": false,
+                          "passageId": "12348",
+                          "html": "<p>Which of these are the most likely reasons the author includes the map that appears after paragraph 2? Select two correct answers.</p>",
+                          "minSelected": 2,
+                          "maxSelected": 2,
+                          "options": [
+                            {
+                              "selected": false,
+                              "html": "<p>A. To support the description of the geographical relationship between the White Nile and the Blue Nile</p>"
+                            },
+                            {
+                              "selected": false,
+                              "html": "<p>B. To suggest why the expedition required inflatable rafts and a two-person kayak</p>"
+                            },
+                            {
+                              "selected": false,
+                              "html": "<p>C. To emphasize the role of the river and its tributaries in the region</p>"
+                            },
+                            {
+                              "selected": false,
+                              "html": "<p>D. To highlight the diverse landscapes along the route of the river to the Mediterranean Sea</p>"
+                            },
+                            {
+                              "selected": false,
+                              "html": "<p>E. To reavel the specific ways in which the river is used as a natural resource</p>"
+                            }
+                          ]
+                        },
+                        {
+                          "type":"notImplemented",
+                          "questionNumber": 17,
+                          "reviewText": "Question 17"
+                        },
+                        {
+                          "type":"notImplemented",
+                          "questionNumber": 18,
+                          "reviewText": "Question 18"
+                        },
+                        {
+                          "type":"notImplemented",
+                          "questionNumber": 19,
+                          "reviewText": "Question 19"
                         },
                         {
                           "type": "summary",
@@ -66,7 +279,19 @@
                     "passages": [
                       {
                         "id": "12345",
-                        "html": "Read the selection and choose the best answr to each question"
+                        "html": "<p>Read the selection and choose the best answr to each question</p>"
+                      },
+                      {
+                        "id": "12346",
+                        "html": "<p>Monarch Magic</p>"
+                      },
+                      {
+                        "id": "12347",
+                        "html": "<p>Read the next two selections. Then choose the best answer to each question.</p>"
+                      },
+                      {
+                        "id": "12348",
+                        "html": "<p>Read the selection and choose the best answer to each question.</p>"
                       }
                     ]
                   }
