@@ -1,8 +1,12 @@
 {
-  "tests": [
+  "documents": [
     {
       "id": 1,
-      "test":{
+      "document":{
+        "type": "benchmark",
+        "allowIncomplete": true,
+        "showResults": true,
+        "releaseDate": "7/20/2021 12:00:00 AM",
         "title": "STAAR Reading Language Arts New Item Type Samples",
         "welcome": "Welcome [USER_NAME]",
         "summary": "<p>There is 1 section.</p><p>There are 19 questions in section 1.</p>",
@@ -28,16 +32,14 @@
                           "footer": ""
                         },
                         {
-                          "type":"shortConstructedResponse",
+                          "type":"shortResponse",
                           "implemented": false,
                           "questionNumber": 1,
                           "reviewText": "Question 1",
-                          "bookmarked": false,
-                          "passageId": ["12344"],
-                          "html": "Read the question carefully.."
+                          "bookmarked": false
                         },
                         {
-                          "type":"multipleSelect",
+                          "type":"multiSelect",
                           "questionNumber": 2,
                           "reviewText": "Question 2",
                           "bookmarked": false,
@@ -78,44 +80,14 @@
                           "implemented": false,
                           "questionNumber": 3,
                           "reviewText": "Question 3",
-                          "bookmarked": false,
-                          "passageId": ["12344"],
-                          "html": "This question has two parts...",
-                          "partA": {
-                              "type":"singleSelect",
-                              "questionNumber": 5,
-                              "reviewText": "Question 5",
-                              "bookmarked": false,
-                              "passageId": "1245",
-                              "html": "<p>In paragraph 14, what is the most....</p>",
-                              "options": [
-                                {
-                                  "selected": false,
-                                  "prefix": "A",
-                                  "html": "<p>To show that the caterpillar has experienced a change</p>"
-                                },
-                                {
-                                  "selected": false,
-                                  "prefix": "B",
-                                  "html": "<p>To explain why the caterpillar feels weak</p>"
-                                },
-                                {
-                                  "selected": false,
-                                  "prefix": "C",
-                                  "html": "<p>To indicate that the caterpillar has made a safe house</p>"
-                                },
-                                {
-                                  "selected": false,
-                                  "prefix": "D",
-                                  "html": "<p>To illustrate why the caterpillar wants to fly</p>"
-                                }
-                              ]
-                            }
-                          },
+                          "bookmarked": false
+                        },
                         {
-                          "type":"notImplemented",
+                          "type":"multiPart",
+                          "implemented": false,
                           "questionNumber": 4,
-                          "reviewText": "Question 4"
+                          "reviewText": "Question 4",
+                          "bookmarked": false
                         },
                         {
                           "type":"singleSelect",
@@ -148,24 +120,32 @@
                           ]
                         },
                         {
-                          "type":"notImplemented",
+                          "type":"textEntry",
+                          "implemented": false,
                           "questionNumber": 6,
-                          "reviewText": "Question 6"
+                          "reviewText": "Question 6",
+                          "bookmarked": false
                         },
                         {
-                          "type":"notImplemented",
+                          "type":"multiPart",
+                          "implemented": false,
                           "questionNumber": 7,
-                          "reviewText": "Question 7"
+                          "reviewText": "Question 7",
+                          "bookmarked": false
                         },
                         {
-                          "type":"notImplemented",
+                          "type":"textEntry",
+                          "implemented": false,
                           "questionNumber": 8,
-                          "reviewText": "Question 8"
+                          "reviewText": "Question 8",
+                          "bookmarked": false
                         },
                         {
-                          "type":"notImplemented",
+                          "type":"multiPart",
+                          "implemented": false,
                           "questionNumber": 9,
-                          "reviewText": "Question 9"
+                          "reviewText": "Question 9",
+                          "bookmarked": false
                         },
                         {
                           "type":"singleSelect",
@@ -198,22 +178,28 @@
                           ]
                         },
                         {
-                          "type":"notImplemented",
+                          "type":"hotText",
+                          "implemented": false,
                           "questionNumber": 11,
-                          "reviewText": "Question 11"
+                          "reviewText": "Question 11",
+                          "bookmarked": false
                         },
                         {
-                          "type":"notImplemented",
+                          "type":"shortResponse",
+                          "implemented": false,
                           "questionNumber": 12,
-                          "reviewText": "Question 12"
+                          "reviewText": "Question 12",
+                          "bookmarked": false
                         },
                         {
-                          "type":"notImplemented",
+                          "type":"multiPart",
+                          "implemented": false,
                           "questionNumber": 13,
-                          "reviewText": "Question 13"
+                          "reviewText": "Question 13",
+                          "bookmarked": false
                         },
                         {
-                          "type":"multipleSelect",
+                          "type":"multiSelect",
                           "questionNumber": 14,
                           "reviewText": "Question 14",
                           "bookmarked": false,
@@ -250,7 +236,7 @@
                           ]
                         },
                         {
-                          "type":"multipleSelect",
+                          "type":"multiSelect",
                           "questionNumber": 15,
                           "reviewText": "Question 15",
                           "bookmarked": false,
@@ -287,7 +273,7 @@
                           ]
                         },
                         {
-                          "type":"multipleSelect",
+                          "type":"multiSelect",
                           "questionNumber": 16,
                           "reviewText": "Question 16",
                           "bookmarked": false,
@@ -324,19 +310,25 @@
                           ]
                         },
                         {
-                          "type":"notImplemented",
+                          "type":"matchGridTable",
+                          "implemented": false,
                           "questionNumber": 17,
-                          "reviewText": "Question 17"
+                          "reviewText": "Question 17",
+                          "bookmarked": false
                         },
                         {
-                          "type":"notImplemented",
+                          "type":"multiPart",
+                          "implemented": false,
                           "questionNumber": 18,
-                          "reviewText": "Question 18"
+                          "reviewText": "Question 18",
+                          "bookmarked": false
                         },
                         {
-                          "type":"notImplemented",
+                          "type":"shortResponse",
+                          "implemented": false,
                           "questionNumber": 19,
-                          "reviewText": "Question 19"
+                          "reviewText": "Question 19",
+                          "bookmarked": false
                         },
                         {
                           "type": "summary",
@@ -373,7 +365,7 @@
     },
     {
       "id": 2,
-      "test":{
+      "document":{
         "parts":[
             {
               "sections":[
