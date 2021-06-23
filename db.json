@@ -4,16 +4,23 @@
       "id": 1,
       "document":{
         "type": "benchmark",
+        "title": "STAAR Reading Language Arts New Item Type Samples",
+        "timeStamp": "6/1/2021 05:00:00 PM",
+        "releaseDate": "7/20/2021 12:00:00 AM",
+        "districtId": "",
+        "userId": "",
+        "welcome": "Welcome",
+        "district": "Support CISD",
+        "department": "Curriculum Department",
+        "logo": "https://tx.pearsontestcontent.com/txqc/55a8d18fc2e0be2e30e648e2fdf26398ee07e357/3261/5/171257/5/staar-logo.png",
+        "scope": "6th Grade",
+        "assessmentType": "District Benchmark",
+        "targetLanguage": "General English Version",
+        "subject": "Reading Language Arts",
         "allowIncomplete": true,
         "showResults": true,
-        "releaseDate": "7/20/2021 12:00:00 AM",
-        "title": "STAAR Reading Language Arts New Item Type Samples",
-        "welcome": "Welcome [USER_NAME]",
-        "summary": "<p>There is 1 section.</p><p>There are 19 questions in section 1.</p>",
         "parts":[
             {
-              "titleHTML": "Not displayed in TestNav",
-              "messageHTML": "Not displayed in TestNav",
               "sections":[
                   {
                     "sections":null,
@@ -21,16 +28,9 @@
                     "questionCount": 19,
                     "notAnswerdCounter": 19,
                     "bookmarkCount": 0,
+                    "logo": "https://tx.pearsontestcontent.com/txqc/55a8d18fc2e0be2e30e648e2fdf26398ee07e357/3261/5/171257/5/staar-logo.png",
+                    "copyright": "Copyright © 2020, Texas Education Agency. All rights reserved. Reproduction of all or portions of this work is prohibited without express written permission from the Texas Education Agency.",
                     "items":[
-                        {
-                          "type": "info",
-                          "reviewText": "Introduction",
-                          "bookmarked": false,
-                          "header": "",
-                          "body": "<img src=\"https://tx.pearsontestcontent.com/txqc/55a8d18fc2e0be2e30e648e2fdf26398ee07e357/3261/5/171257/5/staar-logo.png\" alt=\" \" width=\"400\" height=\"250\"/>",
-                          "copyright": "Copyright © 2020, Texas Education Agency. All rights reserved. Reproduction of all or portions of this work is prohibited without express written permission from the Texas Education Agency.",
-                          "footer": ""
-                        },
                         {
                           "type":"shortResponse",
                           "implemented": false,
@@ -342,11 +342,6 @@
                           "reviewText": "Question 19",
                           "bookmarked": false,
                           "passageId": ["12348"]
-                        },
-                        {
-                          "type": "summary",
-                          "reviewText": "End of Section",
-                          "bookmarked": false
                         }
                     ],
                     "passages": [
