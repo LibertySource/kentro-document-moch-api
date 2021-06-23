@@ -3,7 +3,7 @@
     {
       "id": 1,
       "document":{
-        "type": "benchmark",
+        "type": "test",
         "title": "STAAR Reading Language Arts New Item Type Samples",
         "timeStamp": "6/1/2021 05:00:00 PM",
         "releaseDate": "7/20/2021 12:00:00 AM",
@@ -14,7 +14,7 @@
         "department": "Curriculum Department",
         "logo": "https://tx.pearsontestcontent.com/txqc/55a8d18fc2e0be2e30e648e2fdf26398ee07e357/3261/5/171257/5/staar-logo.png",
         "scope": "6th Grade",
-        "assessmentType": "District Benchmark",
+        "category": "District Benchmark",
         "targetLanguage": "General English Version",
         "subject": "Reading Language Arts",
         "allowIncomplete": true,
