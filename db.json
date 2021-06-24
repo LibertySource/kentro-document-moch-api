@@ -19,7 +19,8 @@
         "target": "General",
         "language": "English",
         "subject": "Reading Language Arts",
-        "allowIncomplete": true,
+        "allowIncompleteSubmission": true,
+        "allowIncompleteNavigation": true,
         "showResults": true,
         "parts":[
             {
